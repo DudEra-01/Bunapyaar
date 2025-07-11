@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
+  const navigate = useNavigate();
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
       {/* Product Image */}
@@ -20,7 +22,10 @@ const ProductCard = ({ product }) => {
         
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-primary">₹{product.price}</span>
-          <button className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-md hover:shadow-lg">
+          <button
+            className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-md hover:shadow-lg"
+            onClick={() => navigate(`/product/${product.id}`)}
+          >
             View
           </button>
         </div>
