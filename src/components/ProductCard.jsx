@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
       {/* Product Image */}
       <div className="h-64 bg-gradient-to-br from-primary to-accent flex items-center justify-center">
         <div className="text-white text-center">
@@ -15,12 +15,12 @@ const ProductCard = ({ product }) => {
 
       {/* Product Info */}
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-accent mb-2">{product.name}</h3>
+        <h3 className="text-xl font-semibold text-primary mb-2">{product.name}</h3>
         <p className="text-text mb-4 line-clamp-2">{product.description}</p>
         
         <div className="flex justify-between items-center">
-          <span className="text-2xl font-bold text-accent">₹{product.price}</span>
-          <button className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+          <span className="text-2xl font-bold text-primary">₹{product.price}</span>
+          <button className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-md hover:shadow-lg">
             View
           </button>
         </div>

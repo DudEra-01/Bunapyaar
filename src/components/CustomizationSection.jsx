@@ -2,29 +2,29 @@ import React from 'react';
 
 const CustomizationSection = () => {
   return (
-    <section id="customize" className="py-20 bg-[#fff0f0]">
+    <section id="customize" className="py-20 bg-gradient-to-br from-background to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h2 className="text-4xl font-bold text-accent mb-6">Customize Your Perfect Piece</h2>
+            <h2 className="text-4xl font-bold text-primary mb-6">Customize Your Perfect Piece</h2>
             <p className="text-xl text-text leading-relaxed mb-8">
               You choose design, size, color — we handcraft it for you.
             </p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md">
+              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md border border-gray-100">
                 <svg className="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>
                 <span className="text-sm font-medium text-text">Design</span>
               </div>
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md">
+              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md border border-gray-100">
                 <svg className="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>
                 <span className="text-sm font-medium text-text">Size</span>
               </div>
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md">
+              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md border border-gray-100">
                 <svg className="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>

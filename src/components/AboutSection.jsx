@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h2 className="text-4xl font-bold text-accent mb-6">Our Story</h2>
+            <h2 className="text-4xl font-bold text-primary mb-6">Our Story</h2>
             <div className="space-y-6 text-lg text-text leading-relaxed">
               <p>
                 BunaPyaar started from Mom's crochet skills, a passion that turned into a mission to preserve and promote traditional handcrafting techniques.
@@ -21,13 +21,13 @@ const AboutSection = () => {
             </div>
             
             <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
-              <div className="bg-accent text-white px-6 py-3 rounded-lg">
+              <div className="bg-primary text-white px-6 py-3 rounded-lg shadow-md">
                 <span className="font-semibold">100+</span> Village Artists
               </div>
-              <div className="bg-primary text-white px-6 py-3 rounded-lg">
+              <div className="bg-accent text-white px-6 py-3 rounded-lg shadow-md">
                 <span className="font-semibold">5000+</span> Happy Customers
               </div>
-              <div className="bg-accent text-white px-6 py-3 rounded-lg">
+              <div className="bg-primary text-white px-6 py-3 rounded-lg shadow-md">
                 <span className="font-semibold">50+</span> Unique Designs
               </div>
             </div>

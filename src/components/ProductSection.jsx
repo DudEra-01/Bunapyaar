@@ -33,7 +33,7 @@ const ProductSection = () => {
     <section id="shop" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-accent mb-4">Our Handcrafted Collection</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">Our Handcrafted Collection</h2>
           <p className="text-xl text-text max-w-3xl mx-auto">
             Each piece is carefully crafted by our skilled artisans, ensuring quality and uniqueness in every stitch.
           </p>

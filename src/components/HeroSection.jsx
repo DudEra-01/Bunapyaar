@@ -2,18 +2,18 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section id="home" className="bg-[#fff0f0] py-20">
+    <section id="home" className="bg-gradient-to-br from-background to-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl md:text-6xl font-bold text-accent mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
               BunaPyaar
             </h1>
             <p className="text-xl md:text-2xl text-text mb-8 leading-relaxed">
               Designed by you, handmade by us.
             </p>
-            <button className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors transform hover:scale-105">
+            <button className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors transform hover:scale-105 shadow-lg hover:shadow-xl">
               Start Customizing
             </button>
           </div>

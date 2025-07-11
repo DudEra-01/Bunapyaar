@@ -4,12 +4,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-background shadow-sm">
+    <nav className="bg-background shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-accent">BunaPyaar</h1>
+            <h1 className="text-2xl font-bold text-primary">BunaPyaar</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -39,7 +39,7 @@ const Navbar = () => {
               href="https://wa.me/1234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+              className="bg-primary hover:bg-accent text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-md hover:shadow-lg"
             >
               Order on WhatsApp
             </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 href="https://wa.me/1234567890"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary hover:bg-accent text-white block px-3 py-2 rounded-md text-base font-medium mt-4"
+                className="bg-primary hover:bg-accent text-white block px-3 py-2 rounded-md text-base font-medium mt-4 shadow-md"
               >
                 Order on WhatsApp
               </a>
