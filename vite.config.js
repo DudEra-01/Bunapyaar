@@ -4,8 +4,8 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
   base: '/Bunapyaar/',
+  plugins: [react()],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
