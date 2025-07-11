@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DudEra-01.github.io/bunapyaar",
+  "homepage": "https://DudEra-01.github.io/Bunapyaar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
